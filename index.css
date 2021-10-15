@@ -24,15 +24,15 @@ ul{
 }
 
 nav ul li{
-    padding:5px 20px;
+    padding:5px 30px;
     border:1px solid black;
-    background-image:linear-gradient(#666 50%,#555 50%);
+    background-image:linear-gradient(#777 50%,#555 50%);
     color:white;
 }
 input{
     border:0px solid white;
     border-radius:10px;
-    background-image:linear-gradient(#666 50%,#555 50%);
+    background-image:linear-gradient(#777 50%,#555 50%);
     border:1px solid black;
     color:white;
     
