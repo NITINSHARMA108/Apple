@@ -10,7 +10,7 @@ main{
 }
 main{
    display:grid;
-   grid-template-rows:minmax(556px,70%) minmax(232px,30%) auto;
+   grid-template-rows:556px minmax(232px,30%) auto;
    grid-template-columns: minmax(1456px,80%);
    justify-content:space-around;
 }
