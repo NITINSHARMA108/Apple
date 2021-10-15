@@ -1,0 +1,151 @@
+body{
+    width:100vw;
+    height:100vh;
+    margin:0 auto auto auto;
+ 
+}
+main{
+    height:100%;
+    width:100%;
+}
+main{
+   display:grid;
+   grid-template-rows:70% 30% auto;
+   grid-template-columns: minmax(1456px,80%);
+   justify-content:space-around;
+}
+
+
+ul{
+    display:flex;
+    list-style-type:none;
+    justify-content:center;
+    
+}
+
+nav ul li{
+    padding:5px 20px;
+    border:1px solid black;
+    background-image:linear-gradient(#666 50%,#555 50%);
+    color:white;
+}
+input{
+    border:0px solid white;
+    border-radius:10px;
+    background-image:linear-gradient(#666 50%,#555 50%);
+    border:1px solid black;
+    color:white;
+}
+
+.search{
+    border-radius:10px;
+    padding:5px;
+    background-image:linear-gradient(#666 50%,#555 50%);
+}
+li:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+}
+li:last-child{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+nav ul li:hover{
+    background-image:radial-gradient(#555 ,#333);
+    
+}
+
+.grids{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(364px,25%));
+}
+section , .grids > div{
+    border:2px solid white;
+}
+
+.iphone5c{
+    width:100%;
+    background-image: url('/promo_iphone5c.jpg');
+    background-size: cover;
+}
+.supplier{
+    background-image: url('/promo_supplier_responsibility.jpg');
+    background-size: cover;
+}
+.iphone5s{
+    background-image: url('/promo_iphone5s.jpg');
+    background-size: cover;
+}
+.mac{
+    background-image: url('/promo_30_years.jpg');
+    background-size: cover;
+}
+.header{
+    
+    background-image: url('/your_verse_hero_2x.jpg');
+    aspect-ratio: 2.9/1;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    display:grid;
+    grid-template-rows:10% 20% 15% 20% 5% 6%;
+    grid-template-columns: 100%;
+    /* align-items: center;*/
+}
+
+.top-text{
+    background-image: url('https://web.archive.org/web/20140301004336im_/http://images.apple.com/home/images/your_verse_title_small.png');
+    background-size:70%;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+    
+    
+   
+}
+.mid-text{
+    background-image: url('http://web.archive.org/web/20140301004340im_/http://images.apple.com/home/images/your_verse_subhead_small.png');
+    background-size:70%;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    
+}
+
+.bottom-text{
+    background-image:url('http://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png');
+    background-size:70%;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    
+
+}
+
+input:focus{
+    background-color:white;
+}
+
+
+
+footer{
+    font-size:0.7em;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(728px,50%));
+    
+}
+
+.country{
+    border-radius:50%;
+    width:17px;
+    height:17px;
+}
+
+a{
+    text-decoration:none;
+}
+
+@media screen and (max-width:1456px){
+    main{
+        justify-content:start;
+    }
+}
