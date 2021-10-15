@@ -10,7 +10,7 @@ main{
 }
 main{
    display:grid;
-   grid-template-rows:70% 30% auto;
+   grid-template-rows:minmax(556px,70%) minmax(232px,30%) auto;
    grid-template-columns: minmax(1456px,80%);
    justify-content:space-around;
 }
@@ -35,11 +35,12 @@ input{
     background-image:linear-gradient(#666 50%,#555 50%);
     border:1px solid black;
     color:white;
+    
 }
 
 .search{
     border-radius:10px;
-    padding:5px;
+    padding-right:5px;
     background-image:linear-gradient(#666 50%,#555 50%);
 }
 li:nth-child(1){
