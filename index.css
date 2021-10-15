@@ -49,6 +49,10 @@ li:nth-child(1){
 li:last-child{
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
+
+}
+li:last-child:hover{
+    background-image: linear-gradient(#555,#666);
 }
 
 nav ul li:hover{
@@ -56,40 +60,16 @@ nav ul li:hover{
     
 }
 
-.grids{
-    display:grid;
-    grid-template-columns:repeat(4,minmax(364px,25%));
-}
-section , .grids > div{
-    border:2px solid white;
-}
-
-.iphone5c{
-    width:100%;
-    background-image: url('/promo_iphone5c.jpg');
-    background-size: cover;
-}
-.supplier{
-    background-image: url('/promo_supplier_responsibility.jpg');
-    background-size: cover;
-}
-.iphone5s{
-    background-image: url('/promo_iphone5s.jpg');
-    background-size: cover;
-}
-.mac{
-    background-image: url('/promo_30_years.jpg');
-    background-size: cover;
-}
 .header{
     
     background-image: url('/your_verse_hero_2x.jpg');
-    aspect-ratio: 2.9/1;
+    
     background-repeat: no-repeat;
     background-size:100% 100%;
     display:grid;
     grid-template-rows:10% 20% 15% 20% 5% 6%;
     grid-template-columns: 100%;
+   
     /* align-items: center;*/
 }
 
@@ -123,6 +103,32 @@ section , .grids > div{
 
 input:focus{
     background-color:white;
+}
+
+.grids{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(364px,25%));
+}
+section , .grids > div{
+    border:2px solid white;
+}
+
+.iphone5c{
+    width:100%;
+    background-image: url('/promo_iphone5c.jpg');
+    background-size: cover;
+}
+.supplier{
+    background-image: url('/promo_supplier_responsibility.jpg');
+    background-size: cover;
+}
+.iphone5s{
+    background-image: url('/promo_iphone5s.jpg');
+    background-size: cover;
+}
+.mac{
+    background-image: url('/promo_30_years.jpg');
+    background-size: cover;
 }
 
 
