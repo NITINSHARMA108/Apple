@@ -62,7 +62,7 @@ nav ul li:hover{
 
 .header{
     
-    background-image: url('/your_verse_hero_2x.jpg');
+    background-image: url('your_verse_hero_2x.jpg');
     
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -115,19 +115,19 @@ section , .grids > div{
 
 .iphone5c{
     width:100%;
-    background-image: url('/promo_iphone5c.jpg');
+    background-image: url('promo_iphone5c.jpg');
     background-size: cover;
 }
 .supplier{
-    background-image: url('/promo_supplier_responsibility.jpg');
+    background-image: url('promo_supplier_responsibility.jpg');
     background-size: cover;
 }
 .iphone5s{
-    background-image: url('/promo_iphone5s.jpg');
+    background-image: url('promo_iphone5s.jpg');
     background-size: cover;
 }
 .mac{
-    background-image: url('/promo_30_years.jpg');
+    background-image: url('promo_30_years.jpg');
     background-size: cover;
 }
 
